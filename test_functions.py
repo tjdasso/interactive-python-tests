@@ -22,10 +22,8 @@ def func2():
 
 args3 = []
 kwargs3 = {}
+# Pure function
 def func3():
-    pass
-
-args4 = []
-kwargs4 = {}
-def func4():
-    pass
+    import time 
+    time.sleep(5)
+    print(time.time())
